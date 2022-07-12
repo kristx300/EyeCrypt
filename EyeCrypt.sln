@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeCrypt.App", "src\EyeCrypt.App\EyeCrypt.App.csproj", "{191057C4-371E-42F8-B2DD-811A27994D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeCrypt.Tests", "src\EyeCrypt.Tests\EyeCrypt.Tests.csproj", "{F8CAA0C5-4B79-4667-84CE-580093CAFEF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{B890724F-36FB-4F6B-B3F4-9F4F4840A311}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{191057C4-371E-42F8-B2DD-811A27994D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191057C4-371E-42F8-B2DD-811A27994D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191057C4-371E-42F8-B2DD-811A27994D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191057C4-371E-42F8-B2DD-811A27994D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CAA0C5-4B79-4667-84CE-580093CAFEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CAA0C5-4B79-4667-84CE-580093CAFEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CAA0C5-4B79-4667-84CE-580093CAFEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CAA0C5-4B79-4667-84CE-580093CAFEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C9BE11C-D419-4AC6-B559-8D4EC4285A1D}
+	EndGlobalSection
+EndGlobal
